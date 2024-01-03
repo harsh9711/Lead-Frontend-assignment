@@ -1,89 +1,37 @@
-# Lead Frontend assignment
+# QuickSell_Assignment_(Harsh Sachdeva)
 
-# **Use React JS for the Assignment**
+Interactive Kanban Board
 
-**Design:** 
+# React Kanban Board
 
-**Display state:** 
+An interactive Kanban board application built with React that interacts with the [QuickSell API](https://api.quicksell.co/v1/internal/frontend-assignment).
+## Technologies
+- React
+- Redux
+- Axios
+- React-Icons
+- React-Router
+## Features
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1a13657-9dc2-496d-a5c7-b27be15e9fe0/Untitled.png)
+- **Grouping Options**: Group tasks by Status, User, or Priority.
+- **Ordering Options**: Order tasks by Priority or Title.
+- **Interactive UI**: Manage tasks with an interactive interface.
 
-**State based on display. - Grouping by user is selected.**
+## Getting Started
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de6f9ade-433a-4185-a6df-4d396ea8be2d/Untitled.png)
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/Amiyanshu-web/quicksell-KanbanBoard.git
+ 
+2. Install dependencies:
+    ```shell
+    cd quicksell-KanbanBoard
+    npm install
+3. Starting the development server:
+    ```shell
+        npm start
+## Usage
+- Click the "Display" button to open the display options.
+- Select a grouping option (Status, User, Priority) and an ordering option (Priority, Title).
+- The Kanban board will dynamically adjust to display tasks based on your selections.
 
-**Grouping by priority is selected.**
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f8e52ba-2b96-40e8-be6a-34e25dd240eb/Untitled.png)
-
-**Card:**
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/896834d4-fe3d-4db5-bd76-29049439b0cb/Untitled.png)
-
-**Api** :  https://api.quicksell.co/v1/internal/frontend-assignment 
-
-You are required to create an interactive Kanban board application using React JS that interacts with the provided API from  https://api.quicksell.co/v1/internal/frontend-assignment
-
-When a user clicks the "display" button and selects a grouping option, the Kanban board should dynamically adjust to reflect the user's choice.
-
-The application should offer three distinct ways to group the data:
-
-1. **By Status**: Group tickets based on their current status.
-2. **By User**: Arrange tickets according to the assigned user.
-3. **By Priority**: Group tickets based on their priority level.
-
-Users should also be able to sort the displayed tickets in two ways:
-
-1. **Priority**: Arrange tickets in descending order of priority.
-2. **Title**: Sort tickets in ascending order based on their title.
-
-The Kanban board should be responsive and visually appealing, with a design similar to the provided screenshots. 
-
-**The priority levels for the tickets are as follows:**
-
-- Urgent (Priority level 4)
-- High (Priority level 3)
-- Medium (Priority level 2)
-- Low (Priority level 1)
-- No priority (Priority level 0)
-
-**Priority levels: (This values you will receive in the api)**
-
-4 - Urgent
-
-3 - High
-
-2 - Medium
-
-1 - Low
-
-0 - No priority
-
-Additionally, the application should save the user's view state even after page reload.
-
-**Assets**
-
-- For icons you can use any library or just pick the icons from the Google.
-- 
-
-**Note:** 
-
-1. Don’t use css library like Bootstrap, Tailwind, Vite, Material UI, Charka…etc
-2. Don’t use NextJs or similar framework. Code in pure ReactJS
-3. Write Pure CSS Code only. No library for css (bootstrap,..etc). Styled JSX can be used though
-
-## **Evaluation Criteria**
-
-Your work will be evaluated based on the following criteria:
-
-1. **Functionality**: The application should effectively fetch data from the provided API and allow users to group and sort tickets based on the given options.
-2. **Visual Design**: The UI should match the provided design, including the layout, card design, and overall aesthetics.
-3. **Business Logic Optimisation**
-4. **Component Structuring**: Components should be appropriately structured, promoting reusability and maintainability.
-
-## **Task Submission**
-
-1. Zip your source code and upload it to Google Form received on mail.
-2. Host the website somewhere and provide the link for evaluation.
-
-Feel free to reach out at deepak@quicksell.co if you have any questions or need further clarification. Good luck with your assignment!
